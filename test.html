@@ -132,6 +132,50 @@
         .nav-link{
             font-size:22px;
         }
+
+        @import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 300;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg1 {
+  background-color: #ccc;
+}
+.bg2 {
+  background-color: #333;
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0;
+}
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+.spacer {
+  height: 50vh;
+  background-color: #000;
+}
+
         
     </style>
 </head>
@@ -193,6 +237,65 @@
         </div>
     </div>
 
+    <div class="section">
+        <h1>Scroll Down</h1>
+      </div>
+      
+      <div class="section bg1">
+        <h1 class="revealUp">Animation 1</h1>
+      </div>
+      
+      <div class="section bg2">
+        <h1 class="revealUp">Animation 2</h1>
+      </div>
+      
+      <div class="spacer"></div>
+ 
+      <script>
+        gsap.registerPlugin(ScrollTrigger);
+// REVEAL //
+gsap.utils.toArray(".revealUp").forEach(function (elem) {
+  ScrollTrigger.create({
+    trigger: elem,
+    start: "top 80%",
+    end: "bottom 20%",
+    markers: true,
+    onEnter: function () {
+      gsap.fromTo(
+        elem,
+        { y: 100, autoAlpha: 0 },
+        {
+          duration: 1.25,
+          y: 0,
+          autoAlpha: 1,
+          ease: "back",
+          overwrite: "auto"
+        }
+      );
+    },
+    onLeave: function () {
+      gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+    },
+    onEnterBack: function () {
+      gsap.fromTo(
+        elem,
+        { y: -100, autoAlpha: 0 },
+        {
+          duration: 1.25,
+          y: 0,
+          autoAlpha: 1,
+          ease: "back",
+          overwrite: "auto"
+        }
+      );
+    },
+    onLeaveBack: function () {
+      gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+    }
+  });
+});
+
+      </script>
 </body>
 
 

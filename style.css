@@ -1,0 +1,324 @@
+body{
+    border:0;
+    margin:0;
+    background-color:#241b3b;;
+}
+.cir{
+    background: #8c52ff;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top:-57px;
+    left:-47px;
+}
+#second{
+    background-color:#cb6ce6;
+    top:-90px;
+    left:-10px;
+    width: 140px;
+    height: 140px;
+}
+
+
+
+.navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
+    color: #fff; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: thin;
+}
+.navbar-custom .navbar-toggler-icon {
+    background-color: #fff; 
+    
+}
+
+.nav-item{
+    display:flex; 
+    align-items: center; 
+    justify-self: center;
+    font-size:large;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.navbar-nav{
+    background-color:#8c52ff;
+    height:40px;
+    
+    border-radius:23px;
+}
+.bt1,.bt2,.bt3,.bt4{
+    display:flex;
+    align-items:center;
+    
+}
+#b1,#b2,#b3,#b4{
+    color:white;
+}
+
+
+#b1:hover,#b2:hover,#b3:hover,#b4:hover{
+    padding:15px;  
+    color:#241b3b;
+    background-color:#8c52ff;
+    transition:0.4s;
+    border-radius:23px;
+}
+
+.ball1{
+    background: #8c52ff;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top:100px;
+    left:-300px;
+}
+#ball2{
+    top:600px;
+    right:-300px;
+}        
+.container{
+    
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.col-lg-4{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    
+  
+    
+}
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    width:300px;
+    background-color:#8c52ff;
+    border-radius:70px;
+    rotate: 0 0 1 85deg;
+    animation-name: anima;
+    animation-duration:2s;
+    animation-timing-function: ease-out;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:both;
+    
+}
+@keyframes anima{
+    Start{
+        box-shadow: none;
+    }
+    to{
+        box-shadow: 25px 25px 0px 0px #cb6ce6;
+    }
+}
+#first{
+    padding-top:100px;
+    margin-top:35px;
+    padding:5%;
+    justify-content:center;
+    align-self:center;
+    
+}
+.col-sm-12{
+    margin-top:50px;
+}
+.box p1{
+    color:white;
+}
+.heading{
+    display:flex;
+    align-items:center;
+    justify-self: center;
+    padding:50px;
+}
+.head{
+    font-family:'Chewy', cursive;
+    font-size:35px;
+    color:white;
+    font-weight:bold;
+    
+}
+ 
+body{
+    background-color: #241b3b;
+    margin:0;
+    border:0;
+}
+.box2{
+    display:flex;
+    justify-content:space-around;
+    
+}
+.in{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.pa{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:40%;
+    padding:30px;
+}
+.im{
+    margin-top:30px;
+    height:100px;
+    width:100px;
+    background-color:#cb6ce6;
+    border-radius:30px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.ss{
+    border-radius:50px;
+    width:400px;
+    background-color:#8c52ff;
+}
+.para{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+    margin:50px;
+}
+.head_para{
+    font-family:'League Spartan', sans-serif;
+    font-size:20px;
+    color:white;
+}
+.exp_head{
+    font-family: 'Onest', sans-serif;
+    font-size:50px;
+    color:white;
+}
+.exp_h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    letter-spacing: 2px;
+}
+.exp_body{
+
+    font-family:'Montserrat' , sans-serif;
+    font-size:17px;
+    color:white;
+}
+.experiences{
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:5%;
+}
+.hh{
+    padding-top:20px;
+}
+.b{
+    padding-top:40px;
+}
+#ball3{
+    position:absolute;
+    top:1900px;
+    right:50px;
+ 
+}
+#ball6{
+    position:absolute;
+    top:-300px;
+    right:150px;
+}
+#ball4{
+    position:absolute;
+    top:2400px;
+    left:-150px;
+}
+#ball5{
+    position:absolute;
+    top:2600px;
+    right:-100px;
+}
+.about{
+    margin-top:150px;
+    height:400px;
+    background-color:#8c52ff;
+    border-radius:10px;
+}
+.about_head{
+    font-family:'Yellowtail', cursive;
+    color:white;
+
+    font-size:60px;
+    padding-top:20px;
+    padding-left:10%;
+}
+.add{
+    padding-top:20px;
+    padding-left:10%;
+}
+.name{
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    color:white;
+}
+.add1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:13px;
+    color:white;
+
+}
+.address{
+    font-family: 'Montserrat', sans-serif;
+    font-size:13px;
+    color:white;
+}
+.sec{
+    padding-top:20px;
+    padding-left:10%;
+}
+
+.ball1, .ball2, .ball3, .ball4, .ball5, .ball6{
+    animation: moveBall 10s linear infinite;
+}
+
+@keyframes moveBall {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(100vw, 100vh);
+    }
+}
+.wel {
+    position: relative;
+    color: #fff;
+    animation: flip 3s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+0%,80% {
+    transform: rotateY(360deg) 
+}
+}
+
+.experiences,.heading {
+    opacity: 0; 
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.experiences.active,.heading.active {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
