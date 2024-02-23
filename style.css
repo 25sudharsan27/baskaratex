@@ -78,28 +78,41 @@ body{
     top:600px;
     right:-300px;
 }        
-.container{
-    
+.cont{
     display:flex;
     flex-direction:column;
     align-items: center;
 }
-.col-lg-4{
+.ro{
     display:flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    justify-self: center;
-    
-  
-    
+    flex-wrap: wrap-reverse;
+    width:100%;
+    height:100%;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top:100px;
+    padding:50px;
 }
-.box{
+#wel1{
+    font-family: 'Yellowtail', cursive; color:white; font-size:60px;rotate: 0 0 1 350deg;
+}
+#wel2{
+    font-family: 'League Spartan', sans-serif; color:white; font-size:80px; padding-top:20px;
+}
+#wel2a{
+    font-family: 'League Spartan', sans-serif; color:white; font-size:80px; padding-top:20px;
+}
+#wel3{
+    font-family:Arial, Helvetica, sans-serif; font-weight:10px; color:white; font-size:20px;
+}
+
+#box{
     display:flex;
     align-items: center;
     justify-content: center;
     height:300px;
     width:300px;
+    color:white;
     background-color:#8c52ff;
     border-radius:70px;
     rotate: 0 0 1 85deg;
@@ -110,8 +123,198 @@ body{
     animation-iteration-count:1;
     animation-direction:normal;
     animation-fill-mode:both;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:20px; font-weight:400; margin:15px; letter-spacing:1.5px;padding:20px;
     
 }
+#cap{
+    font-size:25px;
+}
+#box p1{
+    rotate: 0 0 1 270deg;
+
+}
+#heading{
+    display:flex;
+    align-items:center;
+    justify-self: center;
+    padding:40px;
+    margin-top:60px;
+    font-size:60px;
+}
+.ss{
+    border-radius:50px;
+    width:500px;
+    background-color:#8c52ff;
+    height:100%;
+}
+.im{
+    /* margin-top:30px; */
+    height:150px;
+    width:160px;
+    background-color:#cb6ce6;
+    border-radius:30px;
+    /* margin-right:-6px; */
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.head{
+    font-family:'Chewy', cursive;
+    font-size:35px;
+    color:white;
+    font-weight:bold;
+    letter-spacing:2px;
+    
+}
+
+.head{
+    font-weight:200;
+    width:100%;
+    display:flex;
+    letter-spacing: 5px;
+    line-height: 40px;
+    justify-content:center;
+    align-items:center;
+}
+.para{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+    margin:50px;
+}
+
+.exp_body{
+    letter-spacing:1.5px;
+    font-family:'Montserrat' , sans-serif;
+    font-size:17px;
+    color:white;
+}
+
+.experiences{
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:5%;
+}
+.exp_head{
+    font-family: 'Onest', sans-serif;
+    font-size:50px;
+    color:white;
+    letter-spacing:4px;
+}
+
+.about_head{
+    font-family:'Yellowtail', cursive;
+    color:white;
+
+    font-size:60px;
+    padding-top:20px;
+    padding-left:10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .ro{
+        row-gap:50px;
+        padding:20px;
+    }
+    #wel1{
+        font-size:40px;
+    }
+    #wel2{
+        font-size:50px;
+    }
+    #wel2a{
+        margin-top:-15px;
+        font-size:50px;
+    }
+    #wel3{
+        font-size:15px;
+    }
+    .cir{
+        height:80px;
+        width:80px;
+        top:-26px;
+        left:-26px;
+    }
+    #second{
+        height:80px;
+        width:80px;
+        top:15px;
+        left:-45px;
+
+    }
+
+    .ball1{
+        height:200px;
+        width:200px;
+    }
+    #box{
+        height:220px;
+        width:220px;
+    
+        border-radius:40px;
+        font-size:15px;
+    }
+    #cap{
+        font-size:20px;
+    }
+    #heading{
+        display:flex;
+        align-items:center;
+        justify-self: center;
+        font-size:25px;
+    }
+    #tx1{
+        font-size:40px;
+    }
+    .image img{
+        height:60px;
+        width:50px;
+    }
+    .ss{
+        width:270px;
+    }
+    .para{
+        padding:10px;
+    }
+    .im{
+        height:100px;
+        width:120px;
+    }
+
+    .head{
+        font-size:20px;
+        line-height:25px;
+    }
+    .para{
+        margin:20px;
+
+    }
+    .exp_body{
+        font-size:12px;
+    }
+    .experiences{
+        padding-left:10%;
+    }
+    .exp_head{
+        font-size:35px;
+    }
+    .about_head{
+        font-size:40px;
+    }
+}
+
+
+
+.col-lg-4{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
+
 @keyframes anima{
     Start{
         box-shadow: none;
@@ -134,20 +337,8 @@ body{
 .box p1{
     color:white;
 }
-.heading{
-    display:flex;
-    align-items:center;
-    justify-self: center;
-    padding:50px;
-}
-.head{
-    font-family:'Chewy', cursive;
-    font-size:35px;
-    color:white;
-    font-weight:bold;
-    letter-spacing:2px;
-    
-}
+
+
  
 body{
     background-color: #241b3b;
@@ -155,9 +346,11 @@ body{
     border:0;
 }
 .box2{
+    width:100%;
     display:flex;
-    justify-content:space-around;
-    
+    justify-content:center;
+    /* align-items:center; */
+    height:100%;
 }
 .in{
     display:flex;
@@ -168,43 +361,20 @@ body{
     display:flex;
     flex-direction:column;
     align-items: center;
-    width:60%;
+    width:80%;
+    padding:15px;
     padding-top:25px;
 }
-.im{
-    margin-top:30px;
-    height:100px;
-    width:100px;
-    background-color:#cb6ce6;
-    border-radius:30px;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-}
-.ss{
-    border-radius:50px;
-    width:400px;
-    background-color:#8c52ff;
-}
-.para{
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
 
-    margin:50px;
-}
+
+
 .head_para{
     font-family:'League Spartan', sans-serif;
     font-size:20px;
     
     color:white;
 }
-.exp_head{
-    font-family: 'Onest', sans-serif;
-    font-size:50px;
-    color:white;
-}
+
 .exp_h1{
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
@@ -212,17 +382,8 @@ body{
     color:white;
     letter-spacing: 2px;
 }
-.exp_body{
 
-    font-family:'Montserrat' , sans-serif;
-    font-size:17px;
-    color:white;
-}
-.experiences{
-    padding-left:10%;
-    padding-right:10%;
-    padding-top:5%;
-}
+
 .hh{
     padding-top:20px;
 }
@@ -255,14 +416,6 @@ body{
     height:480px;
     background-color:#8c52ff;
     border-radius:10px;
-}
-.about_head{
-    font-family:'Yellowtail', cursive;
-    color:white;
-
-    font-size:60px;
-    padding-top:20px;
-    padding-left:10%;
 }
 .add{
     padding-top:20px;
@@ -329,3 +482,5 @@ body{
     padding-top:100px;
     padding-left:20px;
 }
+
+

@@ -18,7 +18,7 @@ gsap.registerPlugin(ScrollTrigger);
                         opacity: 1,
                         y: 0,
                         scale: 1,
-                        duration: 1, 
+                        duration: 0.2, 
                         ease: customEase, 
                         scrollTrigger: {
                             trigger: el,
