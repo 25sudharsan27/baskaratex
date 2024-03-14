@@ -29,9 +29,9 @@
 
 <img src="intro.png">
 <img src="products.png">
-<img str="works.png">
-<img str="works1.png">
-<img str="about.png">
+<img src="works.png">
+<img src="works1.png">
+<img src="about.png">
 
 
 
