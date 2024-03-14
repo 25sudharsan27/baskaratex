@@ -1,7 +1,7 @@
 # Business Website 
 ## Client -- Baskara Tex 
 
-Description
+## Description
 - This project is completely build according to the client need, to promote their business. 
 - Primary Goal of this project is to gain the work experience in real life projects using my skills.
 
