@@ -20,8 +20,18 @@
 ## Getting Started
 
 1. Clone the repository
+   ```bash
+   git clone https://github.com/25sudharsan27/baskaratex.git
+
 2. Open Index.html file in the cloned repository
 
+## Screenshots
+
+<img src="intro.png">
+<img src="products.png">
+<img str="works.png">
+<img str="works1.png">
+<img str="about.png">
 
 
 
